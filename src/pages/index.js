@@ -6,7 +6,6 @@ import "../styles/index.scss"
 const IndexPage = () => {
   return (
     <Layout>
-      Hello Im dean
       <p>
         <Link to="/contact">Contact Me</Link>
       </p>
