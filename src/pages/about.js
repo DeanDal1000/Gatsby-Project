@@ -1,11 +1,15 @@
 import React from 'react';
+import Layout from "../components/layout"
 
 const AboutUs = () => {
-    return ( <div>
+    return ( 
+    <Layout>
+    <div>
         
         <h1>Dean Dalzell</h1>    
-            <h2>Bio</h2> 
+            <h2>About Page</h2> 
             </div>
+            </Layout>
             );}
  
 export default AboutUs;
