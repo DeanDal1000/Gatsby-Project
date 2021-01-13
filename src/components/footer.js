@@ -13,7 +13,7 @@ const Footer = () => {
   `)
   return (
     <footer>
-      <p> {data.site.siteMetadata.author} </p>
+      <p> {data.site.siteMetadata.author}</p>
     </footer>
   )
 }
