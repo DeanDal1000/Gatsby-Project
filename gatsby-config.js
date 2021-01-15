@@ -11,6 +11,15 @@ module.exports = {
   },
   /* Your site config here */
   plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        // spaceId: "eaon547lvo2n",
+        // accessToken: "zro27dV1TN3omqu4sbZl-BYIXHwdugNVNDGFY0Dmf4A",
+      },
+    },
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
