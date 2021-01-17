@@ -11,13 +11,12 @@ module.exports = {
   },
   /* Your site config here */
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
-        // spaceId: process.env.CONTENTFUL_SPACE_ID,
-        // accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-        spaceId: "eaon547lvo2n",
-        accessToken: "zro27dV1TN3omqu4sbZl-BYIXHwdugNVNDGFY0Dmf4A",
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     "gatsby-plugin-sass",
@@ -45,4 +44,4 @@ module.exports = {
       },
     },
   ],
-}
+};
